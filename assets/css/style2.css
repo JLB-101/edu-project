@@ -1,0 +1,64 @@
+/*-------------------GRANDIENT------------------------*/
+.gradient {
+    background: rgb(66, 27, 120);
+    background: linear-gradient(90deg, rgba(66, 27, 120, 1) 22%, rgba(66, 27, 120, 1) 60%, rgba(168, 84, 2, 1) 100%);
+    color: #fff;
+  }
+  
+  .gradientc {
+    background: rgb(67, 2, 157);
+    background: -moz-linear-gradient(90deg, rgba(67, 2, 157, 1) 30%, rgba(66, 27, 120, 1) 60%);
+    background: -webkit-linear-gradient(90deg, rgba(67, 2, 157, 1) 30%, rgba(66, 27, 120, 1) 60%);
+    background: linear-gradient(90deg, rgba(67, 2, 157, 1) 30%, rgba(66, 27, 120, 1) 60%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#43029d", endColorstr="#421b78", GradientType=1);
+  }
+  
+  .gradiento {
+    background: rgb(255, 126, 0);
+    background: -moz-linear-gradient(90deg, rgba(255, 126, 0, 1) 50%, rgba(255, 126, 0, 1) 1000%);
+    background: -webkit-linear-gradient(90deg, rgba(255, 126, 0, 1) 50%, rgba(255, 126, 0, 1) 1000%);
+    background: linear-gradient(90deg, rgba(255, 126, 0, 1) 50%, rgba(255, 126, 0, 1) 1000%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ff7e00", endColorstr="#ff7e00", GradientType=1);
+    color: #fff;
+  }
+  
+  .gradientcc {
+    background: rgb(66, 27, 120);
+    background: linear-gradient(90deg, rgba(66, 27, 120, 1) 100%, rgba(66, 27, 120, 1) 100%);
+    color: white;
+  }
+  
+  /*-------------------GRANDIENT------------------------*/
+  
+  .page-header {
+    margin-top: 4rem;
+    font-size: 1.25rem;
+    color: #fff;
+  }
+  
+  /**intro**/
+  .feature {
+    color: black;
+  }
+  
+  /**Icons**/
+  .icon {
+    color: #fff;
+    height: 5rem;
+    width: 5rem;
+    font-size: 1.75rem;
+    border-radius: 100%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  
+
+  
+
+  
+  
+  
+  
+  
