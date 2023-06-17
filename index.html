@@ -76,61 +76,61 @@
   </header>
   <!-- End Header -->
 
-  <!-- ======= hero Section ======= -->
-  <section id="hero">
-    <div class="hero-container">
-      <div id="heroCarousel" class="carousel slide carousel-fade" data-bs-ride="carousel" data-bs-interval="5000">
+  <!-- ======= Hero Section ======= -->
 
-        <ol id="hero-carousel-indicators" class="carousel-indicators"></ol>
-
-        <div class="carousel-inner" role="listbox">
-
-          <div class="carousel-item active" style="background-image: url(assets/img/psl/carrosel/0-cursos.webp)">
-            <div class="carousel-container">
-              <div class="container">
-                <h2 class="animate__animated animate__fadeInDown">The Best Business Information </h2>
-                <p class="animate__animated animate__fadeInUp">We're In The Business Of Helping You Start Your Business
-                </p>
-                <a href="#about" class="btn-get-started scrollto animate__animated animate__fadeInUp">Get Started</a>
-              </div>
-            </div>
-          </div>
-
-          <div class="carousel-item" style="background-image: url(assets/img/psl/carrosel/1-treinanento.webp)">
-            <div class="carousel-container">
-              <div class="container">
-                <h2 class="animate__animated animate__fadeInDown">At vero eos et accusamus</h2>
-                <p class="animate__animated animate__fadeInUp">Helping Business Security & Peace of Mind for Your Family
-                </p>
-                <a href="#about" class="btn-get-started scrollto animate__animated animate__fadeInUp">Get Started</a>
-              </div>
-            </div>
-          </div>
-
-          <div class="carousel-item" style="background-image: url(assets/img/psl/carrosel/3-servicos.webp)">
-            <div class="carousel-container">
-              <div class="container">
-                <h2 class="animate__animated animate__fadeInDown">Temporibus autem quibusdam</h2>
-                <p class="animate__animated animate__fadeInUp">Beatae vitae dicta sunt explicabo. Nemo enim ipsam
-                  voluptatem</p>
-                <a href="#about" class="btn-get-started scrollto animate__animated animate__fadeInUp">Get Started</a>
-              </div>
-            </div>
-          </div>
-
+  <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+        aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+        aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+        aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active c-item">
+        <img src="assets/img/psl/0_É TUDO OU NADA-1.png" class="d-block w-100 c-img" alt="...">
+        <div class="carousel-caption top-0 mt-5">
+          <h1 class="display-1 fw-bold text-capitalize">Cursos</h1>
+          <h3 class="mt5 ">Eleve sua carreira já com nossos cursos, com apenas um click.</h3>
+          <a class="btn btns px-4 py-2  mt-5" href="#" role="button">click aqui</a>
         </div>
 
-        <a class="carousel-control-prev" href="#heroCarousel" role="button" data-bs-slide="prev">
-          <span class="carousel-control-prev-icon bi bi-chevron-left" aria-hidden="true"></span>
-        </a>
-
-        <a class="carousel-control-next" href="#heroCarousel" role="button" data-bs-slide="next">
-          <span class="carousel-control-next-icon bi bi-chevron-right" aria-hidden="true"></span>
-        </a>
-
       </div>
+      <div class="carousel-item c-item">
+        <img src="assets/img/psl/1-escolhas.jpg" class="d-block w-100 c-img" alt="...">
+        <div class="carousel-caption top-0 mt-5">
+          <h1 class="display-1 fw-bold text-capitalize">Treinamentos</h1>
+          <h3 class="mt5 ">Eleve sua carreira já com nossos cursos, com apenas um click.</h3>
+          <a class="btn btns  px-4 py-2  mt-5" href="#" role="button">click aqui</a>
+        </div>
+      </div>
+      <div class="carousel-item c-item">
+        <img src="assets/img/psl/Servicos.jpg" class="d-block w-100 c-img" alt="...">
+        <div class="carousel-caption top-0 mt-5 slidevazio">
+          <h1 class="display-1 fw-bold text-capitalize">Servicos</h1>
+          <h3 class="mt5 ">Somos a sua ajuda para fazer trabalhos académicos, rápido, fácil, contacte-nos já.</h3>
+
+          <a class="btn btns  px-4 py-2  mt-5" href="#" role="button" style="padding-top: 50px;">click aqui</a>
+        </div>
+      </div>
+
+
     </div>
-  </section><!-- End Hero Section -->
+    <!--btns-carosell-->
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+      data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden-focusable">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+      data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden-focusable">Next</span>
+    </button>
+
+  </div>
+  <!-- End Hero -->
 
 
   <main id="main">
@@ -644,7 +644,7 @@
   <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
   <script src="assets/vendor/php-email-form/validate.js"></script>
 
-  Template Main JS File
+  <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
 
 </body>
